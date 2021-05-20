@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.header {
+    height:80px;
+    width: 100vw;
+    position:fixed;
+    top:0;
+    background-color: gold;
+    z-index: 10;
+    color:black;
+    border-radius: 0ch;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-title{
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+button {
+    margin-left: 1200px;
+    margin-top: 100px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+
+button:hover {
+    background-color: gold;
+}
+
+.note{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(248, 241, 241);
+    overflow: scroll;
+    margin-left: 20px;
+    
+    
+     
+    
+}
+
+.main-note{
+    display: flex;
+}
+
+.operation {
+    display: flex;
+
+}
+
+
+
+
+i{
+   
+    margin-top: 10px;
+}
+.edit{
+    color: green;
+    margin-left: 240px;
+    cursor: pointer;
+    transition: transform .2s;
+    width: 20px;
+    height: 20px;
+}
+.trash{
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+i:hover{
+    transform: scale(1.5);
+}
+
+textarea{
+    width: 300px;
+    height: 100vh;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.hidden{
+    display: none;
+}
+
